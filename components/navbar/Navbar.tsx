@@ -31,7 +31,7 @@ const Navbar = () => {
       <nav className="bg-neutral-800 p-4">
         <div className="flex justify-between items-center">
           <Link href="/">
-            <img src="https://tradewithkeithkaplan.com/logo.png" alt="" />
+            <img src="/logo.png" alt="" />
           </Link>
 
           {/* links */}
