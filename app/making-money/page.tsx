@@ -39,7 +39,7 @@ const MakingMoney = () => {
           <div className="p-4 flex items-center justify-center">
             <video width="800px" height="800px" controls>
               <source
-                src="https://tradewithkeithkaplan.com/Money-Making%20Strategy%20Right%20Now!/video.mp4"
+                src="https://firebasestorage.googleapis.com/v0/b/email-list-653cb.appspot.com/o/million.mp4?alt=media&token=6ae34183-f26f-4df2-a3e0-78895cf87483"
                 type="video/mp4"
               />
             </video>

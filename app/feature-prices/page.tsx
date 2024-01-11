@@ -24,7 +24,7 @@ const AiTrading = () => {
         subTitle="TradeKK, one of the world’s most cutting-edge financial tech companies, launches Project An-E — an A.I.-driven market forecasting system that accurately predicts stock prices one month into the future."
       />
       {/* video component */}
-      <VideoComp url="https://tradewithkeithkaplan.com/Our%20A.I%20Predicts%20the%20Future/video.mp4" />
+      <VideoComp url="https://firebasestorage.googleapis.com/v0/b/email-list-653cb.appspot.com/o/ourai.mp4?alt=media&token=2f416914-75b8-453c-864b-a6cedf26c45e" />
       {/* footer */}
       <SecondFooter />
       <MillionsModal show={isActive} toggle={setIsActive} />

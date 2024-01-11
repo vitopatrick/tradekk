@@ -93,7 +93,7 @@ const NewMillions = () => {
         </div>
         <div>
           {/* video*/}
-          <VideoComp url="https://firebasestorage.googleapis.com/v0/b/email-list-653cb.appspot.com/o/million.mp4?alt=media&token=6ae34183-f26f-4df2-a3e0-78895cf87483" />
+          <VideoComp url="#" />
           <Link
             href="/trading-details"
             className="font-head text-green-700 text-center block underline"

@@ -1,19 +1,19 @@
 "use client";
 
 import Footer from "@/components/footer/Footer";
-import LandingModal from "@/components/modals/LandingModal";
+// import LandingModal from "@/components/modals/LandingModal";
 import Navbar from "@/components/navbar/Navbar";
 import Products from "@/components/products/Products";
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 
 const ProductsPage = () => {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setShow(!show);
-    }, 3000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setShow(!show);
+  //   }, 3000);
+  // }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-300 to-orange-500">
@@ -32,7 +32,7 @@ const ProductsPage = () => {
         <Products />
       </main>
       <Footer />
-      <LandingModal show={show} toggle={setShow} />
+      {/* <LandingModal show={show} toggle={setShow} /> */}
     </div>
   );
 };

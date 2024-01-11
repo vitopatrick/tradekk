@@ -12,7 +12,7 @@ const AiTrading = () => {
         subTitle="TradeKK launches Project An-E — a breakthrough, A.I.-driven market forecasting system that accurately predicts stock prices one month into the future."
       />
       {/* video component */}
-      <VideoComp url="https://firebasestorage.googleapis.com/v0/b/email-list-653cb.appspot.com/o/ourai.mp4?alt=media&token=2f416914-75b8-453c-864b-a6cedf26c45e" />
+      <VideoComp url="#" />
       {/* footer */}
       <SecondFooter />
     </>
