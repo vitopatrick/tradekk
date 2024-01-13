@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Navbar />
       <LandingHero />
-      <VideoComp url="https://www.tradewithkeithkaplan.com/derbyinsight-main.mp4" />
+      <VideoComp url="https://drive.google.com/file/d/1-OUHDYu5SrcVxtUOJklhGQMHgGrK6W0x/view?usp=drivesdk" />
       <HeaderNewsLetter />
       <FirstBody />
       <Newsletter />
