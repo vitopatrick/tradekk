@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Navbar />
       <LandingHero />
-      <VideoComp url="https://drive.google.com/file/d/1-OUHDYu5SrcVxtUOJklhGQMHgGrK6W0x/view?usp=drivesdk" />
+      <VideoComp url="https://firebasestorage.googleapis.com/v0/b/email-list-653cb.appspot.com/o/TradeSmith.mp4?alt=media&token=5dd3e8c5-723d-4b41-b7d0-847e84d1aa32" />
       <HeaderNewsLetter />
       <FirstBody />
       <Newsletter />
