@@ -19,7 +19,7 @@ export default function Home() {
       <Navbar />
       <LandingHero linkUrl="/ai-submit" />
       {/* <VideoComp url="https://firebasestorage.googleapis.com/v0/b/email-list-653cb.appspot.com/o/TradeSmith.mp4?alt=media&token=5dd3e8c5-723d-4b41-b7d0-847e84d1aa32" /> */}
-      <main className="md:w-[70%] mx-auto mx-auto">
+      <main className="md:w-[70%]  mx-auto">
         <Products />
       </main>
       {/* <HeaderNewsLetter />
