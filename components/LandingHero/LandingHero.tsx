@@ -1,14 +1,23 @@
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React from "react";
 
-const LandingHero = () => {
+const LandingHero = ({ linkUrl }: { linkUrl: string }) => {
+  const navigate = useRouter();
+
+  const redirectToAiSubmit = () => {
+    navigate.push(linkUrl);
+  };
+
   return (
     <div
+      onClick={redirectToAiSubmit}
       style={{
         background: `url('https://tradesmith.com/wp-content/uploads/2024/01/2401-TLW-The-A.I.-Earnings-Predictor-Summit-HL-v2a1-scaled-1.jpg')`,
         backgroundPosition: "center center",
         backgroundSize: "cover",
       }}
-      className="md:h-[60dvh] h-auto"
+      className="md:h-[60dvh] h-auto cursor-pointer"
     >
       {/* <div className="flex justify-center items-center w-[90%] mx-auto relative">
         <div className="md:w-[20%]">
