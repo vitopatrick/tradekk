@@ -46,12 +46,18 @@ export default function Home() {
         risk more than you can afford to lose. For more details, see our full
         disclosures and details.
       </p>
-      <div className="flex items-center justify-center my-3">
+      <div className="flex items-center justify-center my-3 gap-4 flex-col md:flex-row">
         <Link
           href="/join"
           className="bg-blue-500 rounded p-4 text-2xl font-bold font-head"
         >
           Join Now
+        </Link>
+        <Link
+          href="/products"
+          className="bg-orange-500 rounded p-4 text-2xl font-bold font-head"
+        >
+          See All Products
         </Link>
       </div>
       {/* <main className="md:w-[70%]  mx-auto">
