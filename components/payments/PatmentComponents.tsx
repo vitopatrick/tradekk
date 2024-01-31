@@ -28,6 +28,7 @@ export default function PaymentComponents() {
             <div className="flex flex-col md:flex-row my-3 gap-4 justify-center items-center">
               {methods.map((method) => (
                 <Button
+                  key={method}
                   onClick={(e) => openModal(e, method)}
                   variant={"outline"}
                   className="font-body w-full"
