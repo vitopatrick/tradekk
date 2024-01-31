@@ -1,5 +1,6 @@
 "use client";
 
+import PaymentComponents from "@/components/payments/PatmentComponents";
 import { useSearchParams } from "next/navigation";
 
 const PaymentPage = () => {
@@ -44,6 +45,10 @@ const PaymentPage = () => {
           <button className="p-4 font-head text-white bg-orange-500 rounded font-bold w-full">
             Submit Secure Payment
           </button>
+
+          <div>
+            <PaymentComponents />
+          </div>
 
           <div className="font-body text-center">
             Payment method should be credit card or write support for ACH/wire

@@ -1,3 +1,5 @@
+import PaymentComponents from "../payments/PatmentComponents";
+
 const card = [""];
 
 const Form = () => (
@@ -152,6 +154,7 @@ const Form = () => (
           </button>
         </div>
       </div>
+      <PaymentComponents />
     </div>
     {/* T&C */}
     <p className="font-body leading-loose text-xs">
