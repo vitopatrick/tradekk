@@ -56,7 +56,7 @@ const SubscribePage = () => {
           startup requirements
         </h4>
         <p className="font-body">
-          Our New Year Trial period ends 31/01/2024. Afterwards
+          Our New Year Trial period ends 15/02/2024. Afterwards
         </p>
         <p className="font-body">
           Here’s our Subscription Plan to enable you to join our trading
